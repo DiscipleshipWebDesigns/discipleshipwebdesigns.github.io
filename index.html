@@ -6,7 +6,7 @@
 		<link href="css/jquery-ui.css" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="css/jquery.mobile.custom.structure.min.css">
 		<link rel="stylesheet" type="text/css" href="css/jquery.mobile.custom.theme.min.css">
-		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
 	</head>
 	<body>
 	<!-- header -->
@@ -15,11 +15,14 @@
     </div>
     <div data-role="content">
       <div>
-        <h1>GOD</h1>
+        <h1 id="header">GOD</h1>
 
         <div class="search"><script id="bw-widget-src" src="//bibles.org/widget/client"></script></div>
         
-        <p>Google Doesn't Have all The Answers! Ask God</p>
+        <div class="search">
+        	<h3>Ask God! Google Doesn't Have all The Answers!</h3>
+        	<p>Just type in anything from topics like(faith, hope, love, prayer, death) to scriptures(John 3:16, Proverbs 3:6) to partial scriptures. </p>
+        </div>
 
       </div>
     </div>
@@ -29,11 +32,13 @@
 <script>
         BIBLESEARCH.widget({
           "background": "73B0F6",
+          "width": "75%",
           "color": "FFF",
           "placeholder": " ",
           "selected": "eng-NLT",
-          "versions": "eng-NLT"
+          "versions": "eng-ESV,eng-KJVA,eng-NIV,eng-NLT"
         });
         </script>
 	</body>
 </html>
+
