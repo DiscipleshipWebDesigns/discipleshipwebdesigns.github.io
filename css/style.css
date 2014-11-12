@@ -6,14 +6,17 @@
 }
 .search{
 	position: relative;
-	margin-left: 20%;
-	margin-right: 20%;
+	margin-left: 5%;
+	margin-right: 5%;
 	/*margin-top: 5%;*/
 	text-align: center;
-	width: 60%;
+	width: 90%;
 }
 
 #footer{
 	text-align: center;
-	margin-top: 10%;
+	margin-top: 5%;
+}
+#donate{
+	text-align: center;
 }
