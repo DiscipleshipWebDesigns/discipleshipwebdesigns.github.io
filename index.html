@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		 <meta property="og:url" content="http://project.discipleshipwebdesigns.com" />
 		<title>Bible Search App by DWD</title>
 
 
@@ -11,6 +12,23 @@
     <script type="text/javascript" src="js/config.js"></script>
 	</head>
 	<body>
+		<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '546570045508220',
+      xfbml      : true,
+      version    : 'v2.5'
+    });
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
 	<!-- header -->
 	<div data-role="header">
 
@@ -25,7 +43,7 @@
         	<h3>Ask The Bible! Google Doesn't Have all The Answers!</h3>
         	<p>Just type in anything from topics like(faith, hope, love, prayer, death) to scriptures(John 3:16, Proverbs 3:6) to partial scriptures. </p>
         </div>
-        <div id="VOD"><h4>Verse of the Month:</h4>Love is patient and kind. Love is not jealous or boastful or proud or rude. It does not demand its own way. It is not irreitable and it keeps no record of being wronged - I Corinthians 13:4-5 NLT</div>
+        <div id="VOD"><h4>Verse of the Day:</h4>Thats the whole story. Here now is my final conclusion: Fear God and obey his commands, for this is everyone's duty. Ecclesiastes 12:13 - NLT </div>
         </br>
         <div id="donate"> 
         <!-- <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="258" height="338" title="Click Here to donate!" type="application/x-shockwave-flash"><param name="movie" value="//funds.gofundme.com/Widgetflex.swf" /><param name="quality" value="high" /><param name="flashvars" value="page=g22yb4&template=2" /><param name="wmode" value="transparent" /><embed allowScriptAccess="always" src="//funds.gofundme.com/Widgetflex.swf" quality="high" flashVars="page=g22yb4&template=2" type="application/x-shockwave-flash" wmode="transparent" width="258" height="338"></embed></object> -->
