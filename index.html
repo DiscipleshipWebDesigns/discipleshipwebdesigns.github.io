@@ -18,7 +18,10 @@
       var OneSignal = OneSignal || [];
       OneSignal.push(["init", {
         appId: "0783b562-bff1-46fa-840e-75ded7bed535",
-        subdomainName: 'biblesearch'
+        subdomainName: 'biblesearch',
+        notifyButton: {
+	    enable: true
+	  }
       }]);
     </script>
 	</head>
@@ -56,16 +59,7 @@
         </div>
         <div id="VOD"><h4>Verse of the Day:</h4>How can a young person stay pure? By obeying your word. Psalms 119:9 - NLT </div>
         </br>
-        <a href="#" id="subscribe-link">Subscribe to Notifications</a>  
-  <script>
-    // This example assumes you've already initialized OneSignal
-    function subscribe() {
-      OneSignal.push(["registerForPushNotifications"]);
-      event.preventDefault();      
-    }
-    document.getElementById("subscribe-link").addEventListener('click', subscribe);
-  });
-  </script>
+        
         <div id="donate"> 
         <!-- <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="258" height="338" title="Click Here to donate!" type="application/x-shockwave-flash"><param name="movie" value="//funds.gofundme.com/Widgetflex.swf" /><param name="quality" value="high" /><param name="flashvars" value="page=g22yb4&template=2" /><param name="wmode" value="transparent" /><embed allowScriptAccess="always" src="//funds.gofundme.com/Widgetflex.swf" quality="high" flashVars="page=g22yb4&template=2" type="application/x-shockwave-flash" wmode="transparent" width="258" height="338"></embed></object> -->
           <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
