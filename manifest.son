@@ -1,0 +1,8 @@
+{
+  "name": "Bible Search",
+  "short_name": "Bible Search",
+  "start_url": "/",
+  "display": "standalone",
+  "gcm_sender_id": "308824325024",
+  "gcm_user_visible_only": true
+}
